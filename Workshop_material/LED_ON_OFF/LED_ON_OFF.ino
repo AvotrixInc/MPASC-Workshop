@@ -1,4 +1,4 @@
-#define LED 5 // Led in NodeMCU at pin GPIO16 (D0). 
+#define LED 16 // Led in NodeMCU at pin GPIO16 (D0). 
 
 void setup () { 
 
@@ -12,7 +12,7 @@ digitalWrite (LED, HIGH);        // turn the LED off.(Note that LOW is the volta
 
                                 //the LED is on; this is because it is acive low on the ESP8266. 
 
-Delay (1000);                    // wait for 1 second. 
+delay (1000);                    // wait for 1 second. 
 
 digitalWrite (LED, LOW);          // turn the LED on. 
 

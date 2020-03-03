@@ -8,8 +8,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 String group="-1";
 String roll="-1";
-const char* ssid = "Avotrix"; 
-const char* password = "9987197583"; 
+const char* ssid = "ssid"; 
+const char* password = "password"; 
 
 void setup()  
 { 

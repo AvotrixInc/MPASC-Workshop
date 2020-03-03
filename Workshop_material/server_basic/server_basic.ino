@@ -6,7 +6,7 @@ ESP8266WebServer server(80);
 void setup() {
  
   Serial.begin(115200);
-  WiFi.begin("Avotrix", "9987197583");  //Connect to the WiFi network
+  WiFi.begin("ssid", "password");  //Connect to the WiFi network
  
   while (WiFi.status() != WL_CONNECTED) {  //Wait for connection
  

@@ -16,5 +16,9 @@ void loop() {
   if (isnan(h) || isnan(t)) { 
     Serial.println("Failed to read from DHT sensor!"); 
   } 
+ Serial.println("Humidity = ");
+ Serial.print(h);
+ Serial.println("Temperature = ");
+ Serial.print(t);
 delay(1000); 
 } 

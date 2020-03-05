@@ -1,5 +1,6 @@
 #include <ESP8266WiFi.h> 
 #include <ESP8266HTTPClient.h> 
+#include <Adafruit_Sensor.h>
 #include <DHT.h> 
 #define DHTPIN 5 
 #define DHTTYPE    DHT11     // DHT 11 the type of sensor in use 
